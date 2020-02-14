@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nori.soft.FormController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="EspButton">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="circleButton" mnemonicParsing="false" onAction="#onclickCircleButton" prefHeight="61.0" prefWidth="376.0" text="丸" />
+      <Button fx:id="tryAngleButton" mnemonicParsing="false" onAction="#onclickTryAngleButton" prefHeight="61.0" prefWidth="376.0" text="三角" />
+      <Button fx:id="waveButton" mnemonicParsing="false" onAction="#onclickWaveButton" prefHeight="61.0" prefWidth="376.0" text="波" />
+      <Button fx:id="squareButton" mnemonicParsing="false" onAction="#onclickSquareButton" prefHeight="61.0" prefWidth="376.0" text="四角" />
+      <Button fx:id="starButton" mnemonicParsing="false" onAction="#onclickStarButton" prefHeight="61.0" prefWidth="376.0" text="星" />
+      <Text fx:id="resultText" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="355.0380859375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</VBox>
